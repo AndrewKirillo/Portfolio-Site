@@ -112,7 +112,7 @@ section {
 .contact-form div input[type="text"] {
   font-size: 0.9rem;
   margin-right: 2vw;
-  width: 13vw;
+  width: calc(14vw - 8px);
 }
 
 .banner-wrapper {

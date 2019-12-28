@@ -4,6 +4,7 @@ import zoom_logo from "../assets/media/zoom_logo.png";
 import zoom_showcase from "../assets/media/zoom_showcase.png";
 import zoom_qualtrics from "../assets/media/zoom_qualtrics.png";
 import zoom_groove from "../assets/media/zoom_groove.png";
+import zoom_blog_post from "../assets/media/zoom_blog_post.png";
 import progress_logo from "../assets/media/progress.png";
 import progress_nativechat from "../assets/media/progress_nativechat.png";
 import progress_nativescript from "../assets/media/progress_nativescript.png";
@@ -24,9 +25,6 @@ export default class Experiences extends React.Component {
         };
         return (
             <Slider className="slider" {...settings}>
-                <div>
-                    Pathlight / KP
-                </div>
                 <div>
                     <div className="experience-meta">
                         <div className="experience-brand">
@@ -72,6 +70,9 @@ export default class Experiences extends React.Component {
                             </a>
                             <a href="https://marketplace.zoom.us/apps/xwOk57N_ThK-sXajOmJ-Fw" target="_blank">
                                 <img src={zoom_groove} alt="Zoom Qualtrics chatbot" />
+                            </a>
+                            <a href="https://www.linkedin.com/pulse/meet-zoom-interns-plus-tips-setting-up-your-own-thiya-ramalingam/?trackingId=%2FfJ6T%2FkRpLbeQdrefngprg%3D%3D" target="_blank">
+                                <img src={zoom_blog_post} alt="Blog post by my former manager about his time with us interns" />
                             </a>
                         </div>
                     </div>
@@ -125,19 +126,22 @@ export default class Experiences extends React.Component {
                     <div className="slide-content">
                         <ul className="story">
                             <li>
-                                Tested NativeChat, Progress' chatbot development service, to ensure readiness for an upcoming marketing push.
+                                Managing all aspects of the Berkeley Gateway to Innovation (BEGIN) website, which serves to consolidate all of the resources across UC Berkeley's Innovation and Entrepreneurship ecosystem into one user-friendly and well-curated platform.
                             </li>
                             <ul>
                                 <li>
-                                    This consisted of cross-platform testing using the <span className="emphasis">NativeChat JSON-based chatbot framework</span> to ensure a consistent user experience.
+                                    This included creating <span className="emphasis">a custom Wordpress plugin</span> with <span className="emphasis">PHP</span> that leverages the UC Berkeley Courses API and the Innovation Resource Database created in partnership with WITI and CS 169, our Software Engineering course.
                                 </li>
                             </ul>
                             <br/>
                             <li>
-                                Fixed bugs in the <span className="emphasis">vanilla JS NativeScript API</span> tutorial for NativeScript, Progress' scripting framework for native mobile apps.
+                                Migrating the site off of Wordpress onto a <span className="emphasis">React</span> web app hosted on <span className="emphasis">Gatsby</span>.
                             </li>
                             <li>
-                                Performed market research on competitor positioning and segmentation in the chatbot and micro-app PaaS categories to advise the redevelopment of Progress' marketing materials.
+                                Automated content feeds, event scraping, and SEO implementation to generate a weekly newsletter that grew from 0 to 4000 subscribers, also bringing 5000 new users to the site.
+                            </li>
+                            <li>
+                                Spearheaded collaborations with myriad organizations such as the CatalistX, WITI, IPIRA, OnRamp, and QB3.
                             </li>
                         </ul>
                         <div className="media">

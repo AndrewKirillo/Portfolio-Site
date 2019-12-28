@@ -1,4 +1,8 @@
-• Managed the Berkeley Gateway to Innovation (BEGIN) website, consolidating the resources within UC Berkeley’s innovation and entrepreneurship ecosystem.
-• Automated content feeds and newsletters, alongside implementing SEO best practices, bringing 5,000 new users to the site.
-• Developed custom Wordpress plugins that leverge UC Berkeley’s APIs, making important info effortless to find.
-• Spearheaded collaborations with myriad organizations such as CatalistX, WITI, IPIRA, and OnRamp.
+Managing all aspects of the Berkeley Gateway to Innovation (BEGIN) website, which serves to consolidate all of the resources across UC Berkeley's Innovation and Entrepreneurship ecosystem into one user-friendly and well-curated platform.
+This included creating a custom Wordpress plugin with PHP that leverages the UC Berkeley Courses API and the Innovation Resource Database created in partnership with WITI and CS 169, our Software Engineering course.
+
+Migrating the site off of Wordpress onto a React web app hosted on Gatsby.
+
+Automated content feeds, event scraping, and SEO implementation to generate a weekly newsletter that grew from 0 to 4000 subscribers, also bringing 5000 new users to the site.
+
+Spearheaded collaborations with myriad organizations such as the CatalistX, WITI, IPIRA, OnRamp, and QB3.

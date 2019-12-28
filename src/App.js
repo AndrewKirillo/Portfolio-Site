@@ -1,5 +1,6 @@
 import React from 'react';
 import headshot from './assets/media/headshot.png';
+import SideNav from './components/SideNav/SideNav';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Contact from './components/Contact/Contact';
@@ -10,6 +11,7 @@ export default function App(props) {
 
     return (
       <div className="App">
+        <SideNav/>
         <section className="scroll-section" id="section-0">
           <div className="bio-wrapper">
             <img className="headshot" src={headshot} alt="Andrew looking fine as hell"/>
