@@ -1,0 +1,127 @@
+body, html {
+  background-color: #121621;
+  font-family: Lato;
+  color: #c0c5ce;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  height: 100vh;
+  overflow: hidden; /* For dev purposes */
+  /* border: 1px solid black; */
+}
+
+.bio-wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 10vw 20vw 10vw 15vw;
+}
+
+.bio {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.headshot {
+  height: 16rem;
+  margin-right: 2rem;
+}
+
+#section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10vw;
+}
+
+.section-title {
+  align-self: flex-start;
+  padding-left: 5vw;
+  padding-bottom: 2vw;
+  font-size: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-form input[type='text'], .contact-form textarea {
+  background-color: transparent;
+  border: none;
+  color: #c0c5ce;
+  padding: 8px;
+  outline: none;
+  border-bottom: 2px solid transparent;
+  transition: all ease 0.2s;
+  font-size: 1rem;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #c0c5ce;
+  resize: none;
+  width: 30vw;
+}
+
+.contact-form textarea {
+  width: 40vw;
+}
+
+.contact-form input[type='text']:focus, .contact-form textarea:focus {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.contact-form input[type='submit'] {
+  padding: 8px 16px;
+  color: #c0c5ce;
+  border: 1px solid #c0c5ce;
+  transition: all ease 0.2s;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.contact-form input[type='submit']:hover {
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.contact-form div {
+  display: flex;
+  align-items: center;
+}
+
+.contact-form div input[type="text"] {
+  font-size: 0.9rem;
+  margin-right: 2vw;
+  width: 13vw;
+}
+
+.banner-wrapper {
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+
+.contact-banner {
+  width: 80%;
+}
