@@ -1,4 +1,4 @@
-Architected a video content management system (CMS) and discovery platform for Zoom Webinars with a integrated social network consisting of brand-able channels, including 3rd party marketing integrations and a video analytics suite.
+Architected a video content management system (CMS) and discovery platform for Zoom Webinars with a integrated social network made up of brand-able channels, including 3rd party marketing integrations and a video analytics suite.
 This was a prototype for a new product offering that was pitched to the CEO, Eric Yuan, and now a limited set of the proposed features is being experimented with on the Zoom website.
 Built using a Node backend communicating with the Zoom Webinar API, AWS DynamoDB, and AWS S3; linked to a React frontend, hosted on AWS EC2.
 

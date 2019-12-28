@@ -1,0 +1,6 @@
+Tested NativeChat, Progress' chatbot development service, to ensure readiness for an upcoming marketing push.
+This consisted of cross-platform testing using the NativeChat JSON-based chatbot framework to ensure a consistent user experience.
+
+Fixed bugs in the vanilla JS API tutorial for NativeScript, Progress' scripting framework for native mobile apps.
+
+Performed market research on competitor positioning and segmentation in the chatbot and micro-app PaaS categories to advise the redevelopment of Progress' marketing materials.

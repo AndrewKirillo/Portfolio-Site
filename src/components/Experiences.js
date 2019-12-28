@@ -4,9 +4,14 @@ import zoom_logo from "../assets/media/zoom_logo.png";
 import zoom_showcase from "../assets/media/zoom_showcase.png";
 import zoom_qualtrics from "../assets/media/zoom_qualtrics.png";
 import zoom_groove from "../assets/media/zoom_groove.png";
+import progress_logo from "../assets/media/progress.png";
+import progress_nativechat from "../assets/media/progress_nativechat.png";
+import progress_nativescript from "../assets/media/progress_nativescript.png";
+import scet_logo from "../assets/media/scet_logo.png";
+import begin_homepage from "../assets/media/begin_homepage.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Slider.css"
+import "./Slider.css";
 
 export default class Experiences extends React.Component {
     render() {
@@ -16,8 +21,6 @@ export default class Experiences extends React.Component {
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            // autoplay: true,
-            // autoplaySpeed: 4000
         };
         return (
             <Slider className="slider" {...settings}>
@@ -31,11 +34,12 @@ export default class Experiences extends React.Component {
                             <h2 className="experience-company">Zoom</h2>
                         </div>
                         <h3 className="experience-position">Marketplace Developer Intern</h3>
+                        <h4 className="experience-time">Summer 2019</h4>
                     </div>
                     <div className="slide-content">
                         <ul className="story">
                             <li>
-                                Architected a video content management system (CMS) and discovery platform for Zoom Webinars with a integrated social network consisting of brand-able channels, including 3rd party marketing integrations and a video analytics suite.
+                                Architected a video content management system (CMS) and discovery platform for Zoom Webinars with a integrated social network made up of brand-able channels, including 3rd party marketing integrations and a video analytics suite.
                             </li>
                             <ul>
                                 <li>
@@ -73,10 +77,75 @@ export default class Experiences extends React.Component {
                     </div>
                 </div>
                 <div>
-                    Progress
+                    <div className="experience-meta">
+                        <div className="experience-brand">
+                            <img className="experience-logo" src={progress_logo} alt="Progress logo"/>
+                            <h2 className="experience-company">Progress</h2>
+                        </div>
+                        <h3 className="experience-position">Technical Marketing Intern</h3>
+                        <h4 className="experience-time">Spring 2019</h4>
+                    </div>
+                    <div className="slide-content">
+                        <ul className="story">
+                            <li>
+                                Tested NativeChat, Progress' chatbot development service, to ensure readiness for an upcoming marketing push.
+                            </li>
+                            <ul>
+                                <li>
+                                    This consisted of cross-platform testing using the <span className="emphasis">NativeChat JSON-based chatbot framework</span> to ensure a consistent user experience.
+                                </li>
+                            </ul>
+                            <br/>
+                            <li>
+                                Fixed bugs in the <span className="emphasis">vanilla JS NativeScript API</span> tutorial for NativeScript, Progress' scripting framework for native mobile apps.
+                            </li>
+                            <li>
+                                Performed market research on competitor positioning and segmentation in the chatbot and micro-app PaaS categories to advise the redevelopment of Progress' marketing materials.
+                            </li>
+                        </ul>
+                        <div className="media">
+                            <a href="https://www.progress.com/nativechat" target="_blank">
+                                <img src={progress_nativechat} alt="Progress NativeChat homepage" />
+                            </a>
+                            <a href="https://www.progress.com/nativescript" target="_blank">
+                                <img src={progress_nativescript} alt="Progress NativeScript homepage" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    SCET
+                    <div className="experience-meta">
+                        <div className="experience-brand">
+                            <img className="experience-logo" src={scet_logo} alt="SCET logo"/>
+                            <h2 className="experience-company">Sutardja Center for Entrepreneurship and Technology (SCET)</h2>
+                        </div>
+                        <h3 className="experience-position">Full Stack Developer & Marketing Specialist</h3>
+                        <h4 className="experience-time">Fall 2018 - Present</h4>
+                    </div>
+                    <div className="slide-content">
+                        <ul className="story">
+                            <li>
+                                Tested NativeChat, Progress' chatbot development service, to ensure readiness for an upcoming marketing push.
+                            </li>
+                            <ul>
+                                <li>
+                                    This consisted of cross-platform testing using the <span className="emphasis">NativeChat JSON-based chatbot framework</span> to ensure a consistent user experience.
+                                </li>
+                            </ul>
+                            <br/>
+                            <li>
+                                Fixed bugs in the <span className="emphasis">vanilla JS NativeScript API</span> tutorial for NativeScript, Progress' scripting framework for native mobile apps.
+                            </li>
+                            <li>
+                                Performed market research on competitor positioning and segmentation in the chatbot and micro-app PaaS categories to advise the redevelopment of Progress' marketing materials.
+                            </li>
+                        </ul>
+                        <div className="media">
+                            <a href="https://begin.berkeley.edu" target="_blank">
+                                <img src={begin_homepage} alt="BEGIN homepage" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </Slider>
         )
