@@ -46,6 +46,8 @@
 .slick-slide .slide-content {
     display: flex;
     align-items: flex-start;
+    height: 60vh;
+    overflow-y: scroll;
 }
 
 .slick-slide .slide-content .story {
@@ -76,10 +78,6 @@
             
 .slick-slide .story li {
     margin-bottom: 0.5rem;
-}
-        
-.slick-slide .story .emphasis {
-    color: #00ccb8;
 }
 
 .slick-slide .experience-brand {

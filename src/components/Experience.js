@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Slider.css";
 
-export default class Experiences extends React.Component {
+export default class Experience extends React.Component {
     render() {
         var settings = {
             dots: true,
@@ -37,7 +37,7 @@ export default class Experiences extends React.Component {
                     <div className="slide-content">
                         <ul className="story">
                             <li>
-                                Architected a video content management system (CMS) and discovery platform for Zoom Webinars with a integrated social network made up of brand-able channels, including 3rd party marketing integrations and a video analytics suite.
+                                Architected a video content management system (CMS) and discovery platform for Zoom Webinars with an integrated social network made up of brand-able channels, including 3rd party marketing integrations and a video analytics suite.
                             </li>
                             <ul>
                                 <li>
@@ -62,16 +62,16 @@ export default class Experiences extends React.Component {
                             </li>
                         </ul>
                         <div className="media">
-                            <a href="https://zoom.us/events" target="_blank">
+                            <a href="https://zoom.us/events" target="_blank" rel="noopener noreferrer">
                                 <img src={zoom_showcase} alt="Zoom Webinar Showcase" />
                             </a>
-                            <a href="https://marketplace.zoom.us/apps/CdoL7sL9RA2M8Ff78Bvy7g" target="_blank">
+                            <a href="https://marketplace.zoom.us/apps/CdoL7sL9RA2M8Ff78Bvy7g" target="_blank" rel="noopener noreferrer">
                                 <img src={zoom_qualtrics} alt="Zoom Qualtrics chatbot" />
                             </a>
-                            <a href="https://marketplace.zoom.us/apps/xwOk57N_ThK-sXajOmJ-Fw" target="_blank">
+                            <a href="https://marketplace.zoom.us/apps/xwOk57N_ThK-sXajOmJ-Fw" target="_blank" rel="noopener noreferrer">
                                 <img src={zoom_groove} alt="Zoom Qualtrics chatbot" />
                             </a>
-                            <a href="https://www.linkedin.com/pulse/meet-zoom-interns-plus-tips-setting-up-your-own-thiya-ramalingam/?trackingId=%2FfJ6T%2FkRpLbeQdrefngprg%3D%3D" target="_blank">
+                            <a href="https://www.linkedin.com/pulse/meet-zoom-interns-plus-tips-setting-up-your-own-thiya-ramalingam/?trackingId=%2FfJ6T%2FkRpLbeQdrefngprg%3D%3D" target="_blank" rel="noopener noreferrer">
                                 <img src={zoom_blog_post} alt="Blog post by my former manager about his time with us interns" />
                             </a>
                         </div>
@@ -105,10 +105,10 @@ export default class Experiences extends React.Component {
                             </li>
                         </ul>
                         <div className="media">
-                            <a href="https://www.progress.com/nativechat" target="_blank">
+                            <a href="https://www.progress.com/nativechat" target="_blank" rel="noopener noreferrer">
                                 <img src={progress_nativechat} alt="Progress NativeChat homepage" />
                             </a>
-                            <a href="https://www.progress.com/nativescript" target="_blank">
+                            <a href="https://www.progress.com/nativescript" target="_blank" rel="noopener noreferrer">
                                 <img src={progress_nativescript} alt="Progress NativeScript homepage" />
                             </a>
                         </div>
@@ -145,7 +145,7 @@ export default class Experiences extends React.Component {
                             </li>
                         </ul>
                         <div className="media">
-                            <a href="https://begin.berkeley.edu" target="_blank">
+                            <a href="https://begin.berkeley.edu" target="_blank" rel="noopener noreferrer">
                                 <img src={begin_homepage} alt="BEGIN homepage" />
                             </a>
                         </div>

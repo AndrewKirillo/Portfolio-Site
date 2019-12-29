@@ -11,14 +11,12 @@ body, html {
 
 section {
   height: 100vh;
-  overflow: hidden; /* For dev purposes */
   /* border: 1px solid black; */
 }
 
 .bio-wrapper {
   display: flex;
   align-items: flex-start;
-  padding: 10vw 20vw 10vw 15vw;
 }
 
 .bio {
@@ -31,20 +29,63 @@ section {
   margin-right: 2rem;
 }
 
+.bio-action {
+  display: flex;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.emphasis {
+  color: #00ccb8;
+}
+
+.bio-button {
+  margin-right: 5vw;
+  background-color: transparent;
+  padding: 16px 32px;
+  color: #00ccb8;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 2px solid #00ccb8;
+  outline: none;
+  border-radius: 16px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bio-button:hover {
+  background-color: #00ccb8;
+  color: #121621;
+}
+
+.bio-button:active {
+  background-color: #00998a;
+  border: 2px solid #00998a;
+}
+
+#section-0 {
+  padding: 20vh 10vw 0 15vw;
+}
+
 #section-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
+  padding-bottom: 20vh;
 }
 
-
-#section-2 {
+/* #section-2 {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  height: auto;
+  padding-top: 20vh;
+} */
 
-#section-3 {
+/* section-3 */
+#section-2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -70,11 +111,11 @@ section {
   color: #c0c5ce;
   padding: 8px;
   outline: none;
-  border-bottom: 2px solid transparent;
   transition: all ease 0.2s;
   font-size: 1rem;
   margin-bottom: 24px;
   border-bottom: 1px solid #c0c5ce;
+  border-top: 1px solid transparent;
   resize: none;
   width: 30vw;
 }
@@ -84,24 +125,31 @@ section {
 }
 
 .contact-form input[type='text']:focus, .contact-form textarea:focus {
+  border-top: 0px solid transparent;
   border-bottom: 2px solid #e2e4e9;
   color: #e2e4e9;
 }
 
 .contact-form input[type='submit'] {
   padding: 8px 16px;
-  color: #c0c5ce;
-  border: 1px solid #c0c5ce;
+  color: #00ccb8;
+  border: 1px solid #00ccb8;
   transition: all ease 0.2s;
   font-size: 1rem;
   background-color: transparent;
   border-radius: 8px;
+  outline: none;
 }
 
 .contact-form input[type='submit']:hover {
-  color: #e2e4e9;
-  border: 1px solid #e2e4e9;
+  color: #121621;
+  background-color: #00ccb8;
   cursor: pointer;
+}
+
+.contact-form input[type='submit']:active {
+  background-color: #00998a;
+  border: 1px solid #00998a;
 }
 
 .contact-form div {

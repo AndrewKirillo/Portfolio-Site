@@ -3,22 +3,31 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: min-content;
-    height: 10vh;
+    height: 12.5vh;
     position: fixed;
-    top: 45vh;
+    width: 1rem;
+    top: 43.75vh;
     left: 2vw;
 }
 
 .sidebar div {
     height: 0.5rem;
     width: 0.5rem;
-    border-radius: 50%;
-    background-color: #c0c5ce;
+    border-radius: 100%;
+    background-color: #596273;
     outline: none;
     cursor: pointer;
     transition: all ease 0.2s;
+    margin-bottom: 0.1rem;
+    margin-left: 0.1rem;
 }
 .sidebar div:hover, .sidebar div.active {
     background-color: white;
+}
+
+.sidebar div.active {
+    margin-bottom: 0;
+    margin-left: 0;
+    height: 0.6rem;
+    width: 0.6rem;
 }
