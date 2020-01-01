@@ -11,9 +11,7 @@ export default class Projects extends React.Component {
             arrows: true,
             infinite: true,
             slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 4000
+            slidesToScroll: 1
         };
         return (
             <Slider className="slider" {...settings}>

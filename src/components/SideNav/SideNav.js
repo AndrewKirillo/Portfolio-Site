@@ -35,7 +35,7 @@ export default class SideNav extends React.Component {
         if (!this.state.scrollSpyDisabled) {
             // scroll down
             if (delta > 0 && this.crossedThresh(this.state.prevBottom, sectionRect.bottom, threshold, false)) {
-                activeIdx = Math.min(parseInt(this.state.activeSection.split("-")[1]) + 1, 2);
+                activeIdx = Math.min(parseInt(this.state.activeSection.split("-")[1]) + 1, 3);
             }
             // scroll up
             else if (delta <= 0 && this.crossedThresh(this.state.prevTop, sectionRect.top, threshold, true)) {
@@ -72,7 +72,7 @@ export default class SideNav extends React.Component {
     }    
 
     render() {
-        const links = ["link-0", "link-1", "link-2"]
+        const links = ["link-0", "link-1", "link-2", "link-3"]
         return (
             <div className="sidebar">
                 {

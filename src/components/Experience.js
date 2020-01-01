@@ -26,13 +26,13 @@ export default class Experience extends React.Component {
         return (
             <Slider className="slider" {...settings}>
                 <div>
-                    <div className="experience-meta">
-                        <div className="experience-brand">
-                            <img className="experience-logo" src={zoom_logo} alt="Zoom logo"/>
-                            <h2 className="experience-company">Zoom</h2>
+                    <div className="meta">
+                        <div className="brand">
+                            <img className="logo" src={zoom_logo} alt="Zoom logo"/>
+                            <h2 className="company">Zoom</h2>
                         </div>
-                        <h3 className="experience-position">Marketplace Developer Intern</h3>
-                        <h4 className="experience-time">Summer 2019</h4>
+                        <h3 className="position">Marketplace Developer Intern</h3>
+                        <h4 className="time">Summer 2019</h4>
                     </div>
                     <div className="slide-content">
                         <ul className="story">
@@ -78,13 +78,13 @@ export default class Experience extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <div className="experience-meta">
-                        <div className="experience-brand">
-                            <img className="experience-logo" src={progress_logo} alt="Progress logo"/>
-                            <h2 className="experience-company">Progress</h2>
+                    <div className="meta">
+                        <div className="brand">
+                            <img className="logo" src={progress_logo} alt="Progress logo"/>
+                            <h2 className="company">Progress</h2>
                         </div>
-                        <h3 className="experience-position">Technical Marketing Intern</h3>
-                        <h4 className="experience-time">Spring 2019</h4>
+                        <h3 className="position">Technical Marketing Intern</h3>
+                        <h4 className="time">Spring 2019</h4>
                     </div>
                     <div className="slide-content">
                         <ul className="story">
@@ -100,6 +100,7 @@ export default class Experience extends React.Component {
                             <li>
                                 Fixed bugs in the <span className="emphasis">vanilla JS NativeScript API</span> tutorial for NativeScript, Progress' scripting framework for native mobile apps.
                             </li>
+                            <br/>
                             <li>
                                 Performed market research on competitor positioning and segmentation in the chatbot and micro-app PaaS categories to advise the redevelopment of Progress' marketing materials.
                             </li>
@@ -115,13 +116,13 @@ export default class Experience extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <div className="experience-meta">
-                        <div className="experience-brand">
-                            <img className="experience-logo" src={scet_logo} alt="SCET logo"/>
-                            <h2 className="experience-company">Sutardja Center for Entrepreneurship and Technology (SCET)</h2>
+                    <div className="meta">
+                        <div className="brand">
+                            <img className="logo" src={scet_logo} alt="SCET logo"/>
+                            <h2 className="company">Sutardja Center for Entrepreneurship and Technology (SCET)</h2>
                         </div>
-                        <h3 className="experience-position">Full Stack Developer & Marketing Specialist</h3>
-                        <h4 className="experience-time">Fall 2018 - Present</h4>
+                        <h3 className="position">Full Stack Developer & Marketing Specialist</h3>
+                        <h4 className="time">Fall 2018 - Present</h4>
                     </div>
                     <div className="slide-content">
                         <ul className="story">
@@ -137,9 +138,11 @@ export default class Experience extends React.Component {
                             <li>
                                 Migrating the site off of Wordpress onto a <span className="emphasis">React</span> web app hosted on <span className="emphasis">Gatsby</span>.
                             </li>
+                            <br/>
                             <li>
                                 Automated content feeds, event scraping, and SEO implementation to generate a weekly newsletter that grew from 0 to 4000 subscribers, also bringing 5000 new users to the site.
                             </li>
+                            <br/>
                             <li>
                                 Spearheaded collaborations with myriad organizations such as the CatalistX, WITI, IPIRA, OnRamp, and QB3.
                             </li>

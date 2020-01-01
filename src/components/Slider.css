@@ -69,6 +69,7 @@
     width: 80%;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    outline: none;
 }
 
 .slick-slide .slide-content .media img {
@@ -80,24 +81,24 @@
     margin-bottom: 0.5rem;
 }
 
-.slick-slide .experience-brand {
+.slick-slide .brand {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     color: white;
 }
 
-.slick-slide .experience-brand .experience-logo {
+.slick-slide .brand .logo {
     height: 3rem;
     margin-right: 1rem;
 }
 
-.slick-slide .experience-position {
+.slick-slide .position {
     margin: 0;
     color: white;
 }
 
-.slick-slide .experience-time {
+.slick-slide .time {
     color: #d4d7de;
     margin-top: 0.25rem;
     margin-bottom: 0;

@@ -3,6 +3,7 @@ import headshot from './assets/media/headshot.png';
 import SideNav from './components/SideNav/SideNav';
 import Experience from './components/Experience';
 // import Projects from './components/Projects';
+import Organizations from './components/Organizations';
 import Contact from './components/Contact/Contact';
 import contact_banner from './assets/media/contact.png';
 import './App.css';
@@ -39,6 +40,10 @@ export default function App(props) {
           <Projects/>
         </section> */}
         <section className="scroll-section" id="section-2">
+          <h1 className="section-title">Organizations</h1>
+          <Organizations/>
+        </section>
+        <section className="scroll-section" id="section-3">
           <Contact/>
           <div className='banner-wrapper'>
             <img className="contact-banner" src={contact_banner} alt="Get In Touch!"/>
