@@ -2,7 +2,7 @@ import React from 'react';
 import headshot from './assets/media/headshot.png';
 import SideNav from './components/SideNav/SideNav';
 import Experience from './components/Experience';
-// import Projects from './components/Projects';
+import Projects from './components/Projects';
 import Organizations from './components/Organizations';
 import Contact from './components/Contact/Contact';
 import contact_banner from './assets/media/contact.png';
@@ -35,15 +35,15 @@ export default function App(props) {
           <h1 className="section-title">Experience</h1>
           <Experience/>
         </section>
-        {/* <section className="scroll-section" id="section-2">
+        <section className="scroll-section" id="section-2">
           <h1 className="section-title">Projects</h1>
           <Projects/>
-        </section> */}
-        <section className="scroll-section" id="section-2">
+        </section>
+        <section className="scroll-section" id="section-3">
           <h1 className="section-title">Organizations</h1>
           <Organizations/>
         </section>
-        <section className="scroll-section" id="section-3">
+        <section className="scroll-section" id="section-4">
           <Contact/>
           <div className='banner-wrapper'>
             <img className="contact-banner" src={contact_banner} alt="Get In Touch!"/>

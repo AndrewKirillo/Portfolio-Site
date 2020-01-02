@@ -66,15 +66,19 @@
 }
 
 .slick-slide .slide-content .media a {
-    width: 80%;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     outline: none;
+    width: 80%;
 }
 
 .slick-slide .slide-content .media img {
-    width: 100%;
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     border-radius: 16px;
+}
+                    
+.slick-slide .slide-content .media a > img {
+    width: 100%;
 }
             
 .slick-slide .story li {
@@ -91,6 +95,7 @@
 .slick-slide .brand .logo {
     height: 3rem;
     margin-right: 1rem;
+    border-radius: 1rem;
 }
 
 .slick-slide .position {

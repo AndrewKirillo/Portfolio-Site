@@ -1,0 +1,8 @@
+• Devised an ungameable blockchain-based attendance tracking application.
+• Implemented distributed verification architecture using Google's Nearby API.
+• Backend server operations handled by NodeJS processes that communicated with a MongoDB database. 
+• Built native mobile applications in Swift and Android Studio.
+
+An un-gameable attendance tracking mobile application.
+It utilized Google’s Nearby API for near-field communication and a distributed ledger system to perfectly record attendance.
+
