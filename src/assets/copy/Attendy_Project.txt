@@ -5,4 +5,3 @@
 
 An un-gameable attendance tracking mobile application.
 It utilized Google’s Nearby API for near-field communication and a distributed ledger system to perfectly record attendance.
-
