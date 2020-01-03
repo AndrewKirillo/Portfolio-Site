@@ -13,6 +13,7 @@ export default function App(props) {
     return (
       <div className="App">
         <section className="scroll-section" id="section-0">
+          <h1 className="my-name">Andrew Kirillov</h1>
           <div className="bio-wrapper">
             <img className="headshot" src={headshot} alt="Andrew looking fine as hell"/>
             <p className="bio">
@@ -44,6 +45,7 @@ export default function App(props) {
           <Organizations/>
         </section>
         <section className="scroll-section" id="section-4">
+          <h1 className="section-title" id="contact-title">Get In Touch</h1>
           <Contact/>
           <div className='banner-wrapper'>
             <img className="contact-banner" src={contact_banner} alt="Get In Touch!"/>
