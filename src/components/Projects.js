@@ -63,20 +63,22 @@ export default class Projects extends React.Component {
                     <div className="slide-content">
                         <ul className="story">
                             <li>
-                                Created an online tutoring platform, Tutorous, to provide accessible tutoring to disadvantaged populations, geared towards high-school tutors.
+                                Devised an ungameable blockchain-based attendance tracking system.
                             </li>
                             <ul>
                                 <li>
-                                    Tutorous featured video conferencing, instant messaging, and real-time collaborative document viewing and annotation.
+                                    Stored attendance records on a dsitributed ledger.
                                 </li>
                                 <li>
-                                    This was a full-stack application built with <span className="emphasis">Angular</span> and <span className="emphasis">Node</span>, served from <span className="emphasis">Microsoft Azure</span>.
+                                    Used the <span className="emphasis">Google Nearby API</span> to have classmates' in-earshot devices validate incoming attendance requests, ensuring in-person attendance.
+                                </li>
+                                <li>
+                                    Built on top of a <span className="emphasis">Node</span> backend managing a <span className="emphasis">MongoDB</span> database.
+                                </li>
+                                <li>
+                                    Native applications built using <span className="emphasis">Swift</span> and <span className="emphasis">Android Studio</span>.
                                 </li>
                             </ul>
-                            <br/>
-                            <li>
-                                Partnered with local schools and NGO Paper Airplanes to get Tutorous in the hands of students and Syrian refugees, to empower their pursuit of higher education.
-                            </li>
                         </ul>
                         <div className="media">
                             <img src={attendy_mockup} alt="Tutorous in-call screenshot"/>
