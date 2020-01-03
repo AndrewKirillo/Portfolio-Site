@@ -67,6 +67,7 @@ section {
 
 #section-0 {
   padding: 20vh 10vw 0 15vw;
+  height: 80vh;
 }
 
 .my-name {
@@ -93,7 +94,6 @@ section {
   align-items: center;
   justify-content: center;
   height: auto;
-  padding-bottom: 20vh;
 }
 
 #section-3 {
@@ -110,6 +110,7 @@ section {
   align-items: center;
   justify-content: flex-start;
   padding-left: 10vw;
+  padding-top: 0;
 }
 
 .section-title {
