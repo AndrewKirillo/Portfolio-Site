@@ -183,3 +183,47 @@ section {
 .contact-banner {
   width: 80%;
 }
+
+@media only screen and (max-width: 1100px) {
+  .bio-wrapper {
+    flex-direction: column;
+  }
+
+  .headshot {
+    margin-bottom: 2rem;
+  }
+
+  .bio-action {
+    margin-top: 4rem;
+  }
+
+  #section-0 {
+    height: auto;
+    padding-bottom: 20rem;
+    padding-top: 5rem;
+  }
+
+  #section-4 {
+    flex-direction: column;
+    height: auto;
+    padding-left: 0;
+  }
+
+  #section-4 .contact-form {
+    padding: 10rem 0 18rem 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-form div input[type="text"] {
+    width: calc(37vw - 8px);
+  }
+
+  .contact-form input[type='text'], .contact-form textarea {
+    width: calc(80vw - 16px);
+  }
+
+  .banner-wrapper {
+    display: none;
+  }
+}
