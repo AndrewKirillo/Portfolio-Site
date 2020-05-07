@@ -1,5 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
+import kpcb_logo from "../assets/media/kpcb_logo.png";
+import kpcb_fellows from "../assets/media/kpcb_fellows.png";
+import pathlight from "../assets/media/pathlight.png";
 import zoom_logo from "../assets/media/zoom_logo.png";
 import zoom_showcase from "../assets/media/zoom_showcase.png";
 import zoom_qualtrics from "../assets/media/zoom_qualtrics.png";
@@ -25,6 +28,35 @@ export default class Experience extends React.Component {
         };
         return (
             <Slider className="slider" {...settings}>
+                <div>
+                    <div className="meta">
+                        <div className="brand">
+                            <img className="logo" src={kpcb_logo} alt="KPCB logo"/>
+                            <h2 className="company">Kleiner Perkins</h2>
+                        </div>
+                        <h3 className="position">Engineering Fellow</h3>
+                        <h4 className="time">Summer 2020</h4>
+                    </div>
+                    <div className="slide-content">
+                        <ul className="story">
+                            <li>
+                                Selected as one of less than 50 Kleiner Perkins Engineering Fellows for the summer of 2020.
+                            </li>
+                            <br/>
+                            <li>
+                                Interned at KP-backed startup <span className="emphasis">Pathlight</span> as a Software Engineer.
+                            </li>
+                        </ul>
+                        <div className="media">
+                            <a href="https://fellows.kleinerperkins.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={kpcb_fellows} alt="KPCB Fellows" />
+                            </a>
+                            <a href="https://www.pathlight.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={pathlight} alt="Pathlight" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <div className="meta">
                         <div className="brand">
@@ -136,7 +168,7 @@ export default class Experience extends React.Component {
                             </ul>
                             <br/>
                             <li>
-                                Migrating the site off of Wordpress onto a <span className="emphasis">React</span> web app hosted on <span className="emphasis">Gatsby</span>.
+                                Migrating the site off of Wordpress onto a <span className="emphasis">Gatsby</span> site deployed on <span className="emphasis">Netlify</span>.
                             </li>
                             <br/>
                             <li>

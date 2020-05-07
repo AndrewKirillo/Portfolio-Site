@@ -8,6 +8,9 @@ import belden_tech_talk from "../assets/media/belden_tech_talk.png";
 import student_board_logo from "../assets/media/student_board_logo.png";
 import hbsa_logo from "../assets/media/hbsa_logo.png";
 import hbsa_cohorts from "../assets/media/hbsa_cohorts.png";
+import bab_logo from "../assets/media/B@B_logo.png";
+import bab_teaching from "../assets/media/teaching.jpg";
+import simulator from "../assets/media/basis_simulator.png";
 
 export default class Organizations extends React.Component {
     render() {
@@ -23,11 +26,54 @@ export default class Organizations extends React.Component {
                 <div>
                     <div className="meta">
                         <div className="brand">
+                            <img className="logo" src={bab_logo} alt="B@B logo"/>
+                            <h2 className="company">Blockchain at Berkeley</h2>
+                        </div>
+                        <h3 className="position">Instructor & Researcher</h3>
+                        <h4 className="time">Spring 2020 - Present</h4>
+                    </div>
+                    <div className="slide-content">
+                        <ul className="story">
+                            <li>
+                                Built a platform to run <span className="emphasis">simulated market experiments</span> with configurable stablecoin protocols, agent behaviors, orderbook parameters, and asset price feeds.
+                            </li>
+                            <ul>
+                                <li>
+                                    Used this to investigate <span className="emphasis">DeFi's Black Thursday</span> event that hit the crypto markets on March 12th, 2020, and specifically the stability implications for the <span className="emphasis">Dai</span> protocol.
+                                </li>
+                            </ul>
+                            <br/>
+                            <li>
+                                Taught our <span className="emphasis">Blockchain Fundamentals course</span> to a class of 50 students.
+                            </li>
+                            <ul>
+                                <li>
+                                    Taught the lectures on <span className="emphasis">game theory</span>, <span className="emphasis">scalability</span>, and <span className="emphasis">enterprise blockchain</span>.
+                                </li>
+                            </ul>
+                            <br/>
+                            <li>
+                                Organized a series of summer workshops with the <span className="emphasis">UC Berkeley Academic Talent Development Program</span> (ATDP) that taught middle and high schoolers about blockchain technology.
+                            </li>
+                        </ul>
+                        <div className="media">
+                            <a href="https://github.com/AndrewKirillo/bab-stablecoin_sims_research" target="_blank" rel="noopener noreferrer">
+                                <img src={simulator} alt="Basis stablecoin simulator" />
+                            </a>
+                            <a href="https://blockchain.berkeley.edu/courses/spring-2020-fundamentals-decal/" target="_blank" rel="noopener noreferrer">
+                                <img src={bab_teaching} alt="Me teaching the game theory lecture" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="meta">
+                        <div className="brand">
                             <img className="logo" src={student_board_logo} alt="M.E.T. Student Board logo"/>
                             <h2 className="company">M.E.T. Student Board</h2>
                         </div>
                         <h3 className="position">VP of External Affairs</h3>
-                        <h4 className="time">Summer 2019 - Present</h4>
+                        <h4 className="time">Summer 2019 - Spring 2020</h4>
                     </div>
                     <div className="slide-content">
                         <ul className="story">

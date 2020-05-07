@@ -29,7 +29,7 @@ export default function App(props) {
             </p>
           </div>
           <div className="bio-action">
-            <a href="/andrew/resume.pdf" target="_blank" rel="noopener noreferrer" className="bio-button">View Resume</a>
+            <a href="/andrew/resume.pdf" target="_blank" rel="noopener noreferrer" className="button">View Resume</a>
           </div>
         </section>
         <section className="scroll-section" id="section-1">

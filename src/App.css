@@ -38,10 +38,12 @@ section {
   color: #00ccb8;
 }
 
-.bio-button {
+.button {
   margin-right: 5vw;
   background-color: transparent;
   padding: 16px 32px;
+  display: inline-flex;
+  align-items: center;
   color: #00ccb8;
   font-size: 1.3rem;
   font-weight: bold;
@@ -53,12 +55,12 @@ section {
   text-decoration: none;
 }
 
-.bio-button:hover {
+.button:hover {
   background-color: #00ccb8;
   color: #121621;
 }
 
-.bio-button:active {
+.button:active {
   background-color: #00998a;
   border: 2px solid #00998a;
 }

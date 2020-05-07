@@ -4,6 +4,9 @@ import tutorous_screenshot from "../assets/media/tutorous_sceenshot.png";
 import tutorous_logo from "../assets/media/tutorous_logo.png";
 import attendy_logo from "../assets/media/attendy_logo.png";
 import attendy_mockup from "../assets/media/attendy_mockup.png";
+import snaptab_logo from "../assets/media/SnapTab_logo.png";
+import snaptab_dashboard from "../assets/media/SnapTab_dashboard.png";
+import chrome_webstore from "../assets/media/chrome_web_store.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Slider.css"
@@ -22,23 +25,44 @@ export default class Projects extends React.Component {
                 <div>
                     <div className="meta">
                         <div className="brand">
+                            <img className="logo" src={snaptab_logo} alt="SnapTab logo"/>
+                            <h2 className="company">SnapTab</h2>
+                        </div>
+                        <h3 className="position">Creator</h3>
+                        <h4 className="time">Spring 2020</h4>
+                    </div>
+                    <div className="slide-content">
+                        <ul className="story">
+                            <li>
+                                Say goodbye to hoarded tabs, and say hello to SnapTab! SnapTab's signature "snapshot" feature lets you save all of the tabs currently in your browser window with one click. You can access and edit your snapshots from SnapTab's intuitive dashboard for later use.
+                            </li>
+                            <li>
+                                A <span className="emphasis">Chrome extension</span> built with <span className="emphasis">React</span>, runs completely locally in the browser.
+                            </li>
+                            <a href="https://chrome.google.com/webstore/detail/snaptab/iihldjnghemdinkkpmkoafbhlfbplplc" target="_blank" rel="noopener noreferrer" className="button"><img className="store-logo" src={chrome_webstore} height="32px" alt="Chrome Web Store logo"/> Download on Chrome Web Store</a>
+                        </ul>
+                        <div className="media">
+                            <img src={snaptab_dashboard} alt="SnapTab dashboard"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="meta">
+                        <div className="brand">
                             <img className="logo" src={attendy_logo} alt="Attendy logo"/>
                             <h2 className="company">Attendy</h2>
                         </div>
-                        <h3 className="position">Developer</h3>
+                        <h3 className="position">Co-Creator</h3>
                         <h4 className="time">Fall 2018</h4>
                     </div>
                     <div className="slide-content">
                         <ul className="story">
                             <li>
-                                Devised an ungameable blockchain-based attendance tracking system.
+                                Devised an ungameable attendance tracking system using distributed ledger technology.
                             </li>
                             <ul>
                                 <li>
-                                    Stored attendance records on a dsitributed ledger.
-                                </li>
-                                <li>
-                                    Used the <span className="emphasis">Google Nearby API</span> to have classmates' in-earshot devices validate incoming attendance requests, ensuring in-person attendance.
+                                    Consensus algorithm used the <span className="emphasis">Google Nearby API</span> to have classmates' in-earshot devices validate incoming attendance requests, ensuring in-person attendance.
                                 </li>
                                 <li>
                                     Built on top of a <span className="emphasis">Node</span> backend managing a <span className="emphasis">MongoDB</span> database.
@@ -56,7 +80,7 @@ export default class Projects extends React.Component {
                 <div>
                     <div className="meta">
                         <div className="brand">
-                            <img className="logo" src={tutorous_logo} alt="Tutorous logo"/>
+                            <img className="logo cropped" src={tutorous_logo} alt="Tutorous logo"/>
                             <h2 className="company">Tutorous</h2>
                         </div>
                         <h3 className="position">Co-founder</h3>
