@@ -31,7 +31,7 @@ export default class Experience extends React.Component {
                 <div>
                     <div className="meta">
                         <div className="brand">
-                            <img className="logo" src={kpcb_logo} alt="KPCB logo"/>
+                            <img className="logo cropped" src={kpcb_logo} alt="KPCB logo"/>
                             <h2 className="company">Kleiner Perkins</h2>
                         </div>
                         <h3 className="position">Engineering Fellow</h3>

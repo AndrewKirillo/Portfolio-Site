@@ -18,11 +18,11 @@ export default function App(props) {
             <img className="headshot" src={headshot} alt="Andrew looking fine as hell"/>
             <p className="bio">
               Hey there!
-              I'm currently a sophomore in UC Berkeley's <span className="emphasis">Management, Entrepreneurship, and Technology (M.E.T.) program</span>, pursuing a dual degree in Electrical Engineering & Computer Science and Business Administration.
+              I'm currently a junior in UC Berkeley's <span className="emphasis">Management, Entrepreneurship, and Technology (M.E.T.) program</span>, pursuing a dual degree in Electrical Engineering & Computer Science and Business Administration.
               <br/>
               My goal in life is to create products that <span className="emphasis">empower others to fulfill their ambitions</span>.
               <br/>
-              At the moment, my technical interests lie in distributed systems, full-stack engineering, and product management.
+              At the moment, my technical interests lie in distributed systems, blockchain technology, and product management.
               I am also interested in tech entrepreneurship, and am an avid <span className="emphasis">boxer</span> in my free time!
               <br/>
               Please enjoy my site.
